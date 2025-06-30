@@ -3,9 +3,12 @@
 ServerEvents.tags("item", e => {
 
     //// Forge
-    // Fixes
+    /// Fixes
+
+    // Dusts
     e.add("forge:salt/salt", ["pamhc2foodcore:saltitem"])
     e.add("forge:dusts/salt", ["fishermans_haven:salt", "pamhc2foodcore:saltitem", "refurbished_furniture:sea_salt"])
+
 
     // Seeds
     e.add("forge:seeds", ["pamhc2crops:bokchoyseeditem", "pamhc2crops:calabashseeditem", "pamhc2crops:guaranaseeditem", "pamhc2crops:papyrusseeditem", "pamhc2crops:sunchokeseeditem"])
@@ -14,6 +17,11 @@ ServerEvents.tags("item", e => {
     e.add("forge:seeds/guarana", ["pamhc2crops:guaranaseeditem"])
     e.add("forge:seeds/papyrus", ["pamhc2crops:papyrusseeditem"])
     e.add("forge:seeds/sunchoke", ["pamhc2crops:sunchokeseeditem"])
+
+
+    // Mushrooms
+    e.add("mushroomquest:mushrooms", ["mushroomquest:silver_leaf_fungus"])
+ 
 
     // Raw Meat
     // It should be raw_meats, but for some reason it"s not

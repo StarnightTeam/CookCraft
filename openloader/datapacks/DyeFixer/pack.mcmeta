@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "Fixes dye recipes by using tags. Recipes themselves are added by KubeJS. Pack made by vizthex."
+    }
+}

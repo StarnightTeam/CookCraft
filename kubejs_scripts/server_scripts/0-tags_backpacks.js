@@ -10,7 +10,10 @@ ServerEvents.tags("item", e => {
 
 
     // Forester
-    e.add("forestry:backpack/allow/forester", ["#minecraft:saplings", "#forge:berries", "#forge:fruits", "#forge:nuts", "#forge:vegetables"])
+    e.add("forestry:backpack/allow/forester", ["#minecraft:saplings",
+
+    "#forge:berries", "#forge:fruits", "#forge:nuts", "#forge:vegetables",
+    "#mushroomquest:mushrooms"])
 
 
     // Hunter
