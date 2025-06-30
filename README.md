@@ -13,8 +13,8 @@ The files in here will be the configs, default configs, scripts, changelogs, cus
 
 ## Links
 
-Discord: https://discord.gg/EART3XcyZm
+[Discord](https://discord.gg/EART3XcyZm)
 
-Issue tracker: https://github.com/StarnightTeam/CookCraft/issues
+[Issue tracker](https://github.com/StarnightTeam/CookCraft/issues)
 
-Taiga to-do list: https://tree.taiga.io/project/lyria-chan-cookcraft/kanban
+[Taiga to-do list](https://tree.taiga.io/project/lyria-chan-cookcraft/kanban)
