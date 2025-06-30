@@ -1,0 +1,3 @@
+Lyria - created the modpack
+SHADOWMASTER44 - KubeJS scripting
+vizthex - KubeJS scripting
