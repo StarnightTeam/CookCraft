@@ -212,6 +212,23 @@
 				"{Count:1b,id:\"excavated_variants:quark_jasper_forestry_apatite_ore\",type:\"minecraft:item\"}",
 				"{Count:1b,id:\"excavated_variants:quark_shale_forestry_apatite_ore\",type:\"minecraft:item\"}"
 			]
+		},
+		{
+			"id": "custom:fluids",
+			"name": "Fluids",
+			"stacks": [
+				"{Amount:1000,FluidName:\"minecraft:water\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"minecraft:lava\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"minecraft:milk\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:bio_ethanol\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:biomass\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:glass\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:honey\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:ice\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:juice\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:seed_oil\",type:\"minecraft:fluid\"}",
+				"{Amount:1000,FluidName:\"forestry:short_mead\",type:\"minecraft:fluid\"}"
+			]
 		}
 	]
 }

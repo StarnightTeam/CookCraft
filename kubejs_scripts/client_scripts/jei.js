@@ -1,3 +1,5 @@
+// Manages JEI
+// Script by Lyria
 var items_to_add = 
 [
     'nebulus_chicken:lavachickenwing'

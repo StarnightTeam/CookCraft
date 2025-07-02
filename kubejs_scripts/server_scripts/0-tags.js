@@ -46,3 +46,13 @@ ServerEvents.tags("item", e => {
     "immersive_cooking:raw_spider_shank", "immersive_cooking:raw_spider_cutlet", "quark:crab_leg"])
 
 })
+
+
+
+// Block tags
+ServerEvents.tags("block", e => {
+
+    // Make the bounty board mineable
+    e.add("minecraft:mineable/axe", ["bountiful:bountyboard"])
+
+})

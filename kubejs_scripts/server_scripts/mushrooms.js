@@ -1,8 +1,8 @@
 // Changes tags and recipes for items from Mushroom Quest
+// Not sure who made the original version
 // Script fixed by vizthex
 ServerEvents.tags("block", e => {
-    // Makes stumps mineable with an axe
-    // Added by Lyria
+    // I got no clue what this does lol
     [
         "oak_stump_2",
         "spruce_stump_2",
@@ -19,8 +19,7 @@ ServerEvents.tags("block", e => {
 
 ServerEvents.tags("item", e => {
 
-    // Add Mushroom Caps to the mushroomcaps tag (unused right now, is supposed to make the mushroom caps wearable as helmets)
-    // Added by Lyria
+    // I got no clue what this does lol
     const caps = [
         "gray", "red", "brown", "yellow", "aqua", "blue", "purple", "green", "pink"
     ]
