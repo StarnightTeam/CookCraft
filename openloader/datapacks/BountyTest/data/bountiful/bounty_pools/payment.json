@@ -1,0 +1,34 @@
+{
+    "content": {
+        "iron_ingot": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 10
+        },
+        "emerald": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:emerald",
+            "amount": {
+                "min": 2,
+                "max": 16
+            },
+            "unitWorth": 5
+        },
+        "diamond": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:diamond",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 250
+        }
+    }
+}

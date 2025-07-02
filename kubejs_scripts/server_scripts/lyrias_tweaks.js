@@ -1,8 +1,11 @@
+// Sets the name of the KubeJS mod to 'CookCraft'
+Platform.mods.kubejs.name = 'CookCraft';
+
+// Cancels farmland trampling if the player has Feather Falling IV on their boots
 BlockEvents.farmlandTrampled(event => {
   if(event.player.feetArmorItem.hasEnchantment('minecraft:feather_falling', 4)) e.cancel()
 })
 
-Platform.mods.kubejs.name = 'CookCraft';
 /*
 ServerEvents.recipes(event => { 
     

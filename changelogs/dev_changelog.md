@@ -2,6 +2,17 @@ Changelog used during development.
 
 --------------------------------------------------
 
+# Current updated
+
+Added Open Loader
+
+Updated ExtraLib<br />
+Updated ModernFix
+
+
+<br /> <br />
+
+--------------------------------------------------
 # v0.1.1
 
 Added Oh The Biomes We've Gone and many quality-of-life changes.

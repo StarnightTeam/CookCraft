@@ -1,0 +1,217 @@
+{
+	"disabledGroups": [],
+	"customGroups": [
+		{
+			"id": "custom:coal_ores",
+			"name": "Coal Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_coal_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_coal_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:lapis_ores",
+			"name": "Lapis Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_lapis_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_lapis_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:redstone_ores",
+			"name": "Redstone Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_redstone_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_redstone_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:emerald_ores",
+			"name": "Emerald Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_emerald_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_emerald_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:diamond_ores",
+			"name": "Diamond Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_diamond_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_diamond_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:nether_quartz_ores",
+			"name": "Nether Quartz Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:nether_quartz_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:basalt_quartz_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:blackstone_quartz_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:copper_ores",
+			"name": "Copper Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_copper_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_copper_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:iron_ores",
+			"name": "Iron Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_iron_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_iron_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:gold_ores",
+			"name": "Gold Ores",
+			"stacks": [
+				"{Count:1b,id:\"minecraft:gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:deepslate_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"minecraft:nether_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:basalt_nether_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:blackstone_nether_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_gold_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_gold_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:tin_ores",
+			"name": "Tin Ores",
+			"stacks": [
+				"{Count:1b,id:\"forestry:tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"forestry:deepslate_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_forestry_tin_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_forestry_tin_ore\",type:\"minecraft:item\"}"
+			]
+		},
+		{
+			"id": "custom:apatite_ores",
+			"name": "Apatite Ores",
+			"stacks": [
+				"{Count:1b,id:\"forestry:apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"forestry:deepslate_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:red_sandstone_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:smooth_basalt_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:granite_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:dripstone_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:tuff_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:calcite_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:sandstone_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:diorite_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:andesite_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_limestone_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_jasper_forestry_apatite_ore\",type:\"minecraft:item\"}",
+				"{Count:1b,id:\"excavated_variants:quark_shale_forestry_apatite_ore\",type:\"minecraft:item\"}"
+			]
+		}
+	]
+}

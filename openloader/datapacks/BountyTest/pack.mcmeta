@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "Test pack to see if Lyria wants to use these mods for bounties."
+    },
+	"filter": {
+		"block": [
+		{
+			"namespace": "shippingbin",
+			"path": "trades"
+		}
+	  ]
+	}
+}

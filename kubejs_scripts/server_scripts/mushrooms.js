@@ -1,4 +1,5 @@
 // Changes tags and recipes for items from Mushroom Quest
+// Not sure who made the original version
 // Script fixed by vizthex
 ServerEvents.tags("block", e => {
     // I got no clue what this does lol

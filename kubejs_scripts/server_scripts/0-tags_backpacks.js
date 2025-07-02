@@ -6,18 +6,18 @@ ServerEvents.tags("item", e => {
 
 
     // Miner
-    e.add("forestry:backpack/allow/miner", [])
+    e.add("forestry:backpack/allow/miner", ["#forge:dusts/salt"])
 
 
     // Forester
-    e.add("forestry:backpack/allow/forester", ["#minecraft:saplings",
+    e.add("forestry:backpack/allow/forester", ["#minecraft:saplings", "kelp",
 
     "#forge:berries", "#forge:fruits", "#forge:nuts", "#forge:vegetables",
     "#mushroomquest:mushrooms"])
 
 
     // Hunter
-    e.add("forestry:backpack/allow/hunter", ["#forge:rawmeats"])
+    e.add("forestry:backpack/allow/hunter", ["#forge:rawmeats", "aquaculture:jellyfish"])
 
 
     // Adventurer
