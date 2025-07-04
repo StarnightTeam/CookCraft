@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "going_digital"
 	group: "541666FFE70E8564"
+	icon: "appliedcooking:kitchen_station"
 	id: "2FF97AAA8D5D50CA"
 	order_index: 1
 	quest_links: [ ]

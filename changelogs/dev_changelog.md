@@ -2,9 +2,24 @@ Changelog used during development.
 
 --------------------------------------------------
 
-# Current updated
+# Current update
 
-Added Open Loader
+Improved the basic quests<br />
+Added some basic bounties
+
+Fixed several items missing tags<br />
+Made recipes that require Bowls use the `cookcraft:furnace` tag<br />
+Made recipes that require Bowls use the `cookcraft:bowl` tag<br />
+Made recipes that require Crafting Tables use the `forge:crafting_tables` tag
+
+Added the following mods:
+
+Bountiful<br />
+Bountiful Saplings<br />
+Open Loader<br />
+Shipping Bin
+
+Removed Nether's Delight
 
 Updated ExtraLib<br />
 Updated ModernFix

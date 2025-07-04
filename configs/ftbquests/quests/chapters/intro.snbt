@@ -2,12 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "intro"
-	group: "263F7E5FB1328B7F"
+	group: ""
+	icon: "minecraft:crafting_table"
 	id: "71B9AED142437512"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["I'm sure you know how to play minecraft by now, so I won't bore you with the details."]
+			icon: "minecraft:dark_oak_log"
 			id: "7A84E76A107B10C2"
 			rewards: [{
 				count: 16
@@ -26,14 +29,20 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "4x Logs"
 				type: "item"
 			}]
+			title: "Logging Your Progress"
 			x: -4.5d
 			y: -2.0d
 		}
 		{
-			description: ["Youve found/grown your first wheat"]
+			description: [
+				"You've grown your first wheat!"
+				""
+				"Or did you just steal it from a local village?"
+			]
+			icon: "minecraft:wheat"
 			id: "6E3712FE8A492516"
 			tasks: [{
 				id: "754F2D76A17EBEAB"
@@ -55,11 +64,13 @@
 				}
 				type: "item"
 			}]
+			title: "Home-Grown Grains"
 			x: -4.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["7A84E76A107B10C2"]
+			icon: "minecraft:chest"
 			id: "14727BE8DC41CDDD"
 			tasks: [
 				{
@@ -88,7 +99,7 @@
 							value: "forge:chests"
 						}
 					}
-					title: "Any #forge:chests"
+					title: "Any Chest"
 					type: "item"
 				}
 			]
@@ -98,13 +109,22 @@
 		}
 		{
 			dependencies: ["6E3712FE8A492516"]
-			description: ["Bake/find your first bread!!!!!!"]
+			description: ["Bake (or locate) your first loaf of bread."]
+			icon: "minecraft:bread"
 			id: "4B62A61341B013FB"
 			tasks: [{
 				id: "108DAEDB8F496AED"
-				item: "minecraft:bread"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bread"
+					}
+				}
+				title: "Any Bread"
 				type: "item"
 			}]
+			title: "Bready to Bake"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -112,14 +132,41 @@
 			dependencies: ["4B62A61341B013FB"]
 			description: [
 				"Find any Farmer's Delight seeds (put an OR filter here i cant rn im in survival XD)"
-				"Unlocks Farmer's Delight chapter"
+				""
+				"Unlocks Farmer's Delight chapter."
 			]
+			icon: "farmersdelight:onion"
 			id: "38BB38815ABCD748"
 			tasks: [{
-				id: "10769453237C67E2"
-				item: "farmersdelight:onion"
+				id: "07A717695D80EA6E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:onion"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:rice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:tomato_seeds"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cabbage_seeds"
+							}
+						]
+					}
+				}
+				title: "Seed"
 				type: "item"
 			}]
+			title: "Delightful Seedlings"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -134,8 +181,19 @@
 			y: -1.0d
 		}
 		{
-			description: ["This packs comes with a gravestones mod by default, but it is your choice if you prefer playing on keep inventory ^^ Both are fine, and the pack is well suited for both! Pick whichever you feel more comfortable with :)"]
+			description: [
+				"This pack has Quark's Totem of Holding (basically a gravestone) enabled by default, but you can enable keep inventory if you want."
+				""
+				"^^ Both are fine, and the pack is well suited for both! Pick whichever you feel more comfortable with :)"
+			]
 			id: "402898657E4216B3"
+			rewards: [{
+				auto: "enabled"
+				id: "5F2E23CD8BEA5614"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "gear"
 			tasks: [{
 				id: "074BF89F2DB0D182"
 				title: "About the pack"
@@ -145,6 +203,8 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["402898657E4216B3"]
+			description: ["A base with open space for your farms would be a good idea."]
 			id: "55FE299458D31819"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -153,14 +213,14 @@
 				type: "choice"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "6A5BC7E908EB06DD"
 				title: "Find a place to settle down"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -6.5d
+			y: 2.0d
 		}
 	]
 	title: "Intro"

@@ -2,9 +2,6 @@
 	"ftbteams": {
 		"my_team": true
 	},
-	"sdmshoprework": {
-		"shop": true
-	},
 	"ftbquests": {
 		"quests": true
 	},
@@ -18,7 +15,7 @@
 		"trash_can": false
 	},
 	"ftbchunks": {
-		"chunks": false,
+		"chunks": true,
 		"claim_chunks": true
 	}
 }

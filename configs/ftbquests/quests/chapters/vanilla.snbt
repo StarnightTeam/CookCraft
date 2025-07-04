@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "vanilla"
 	group: "56A29CC63F216935"
+	icon: "minecraft:cookie"
 	id: "4C228B6D6CC2D068"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

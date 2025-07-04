@@ -1,10 +1,10 @@
 {
-  "attribute": "shippingbin:crop_sell_multiplier",
+	"attribute": "shippingbin:crop_sell_multiplier",
 	"input": {
 		"ingredient": {
 			"item": "minecraft:golden_apple"
 		},
-	"count": 4
+	"count": 2
 	},
 	"output": {
 		"item": "minecraft:emerald",

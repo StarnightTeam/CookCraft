@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "fishies_goin_fishing"
 	group: "66334EA7D5F7A589"
+	icon: "minecraft:cod"
 	id: "49DB12811C570123"
 	order_index: 1
 	quest_links: [ ]
@@ -249,8 +250,8 @@
 				title: "INTRODUCTION"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [

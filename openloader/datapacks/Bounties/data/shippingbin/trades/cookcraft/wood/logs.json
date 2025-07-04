@@ -1,5 +1,5 @@
 {
-  "attribute": "shippingbin:wood_sell_multiplier",
+	"attribute": "shippingbin:wood_sell_multiplier",
 	"input": {
 		"ingredient": {
 			"tag": "minecraft:logs"

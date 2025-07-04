@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "farmers_delight"
 	group: "56A29CC63F216935"
+	icon: "farmersdelight:stove"
 	id: "39476E8CB09FAE46"
 	order_index: 1
 	quest_links: [ ]

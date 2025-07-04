@@ -2,22 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "a_bakers_dozen"
-	group: "56A29CC63F216935"
+	group: "04811AA483C205E4"
 	icon: "pamhc2foodextended:sprinklescupcakeitem"
 	id: "2FDC5C202621589D"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"Craft normal dough!"
 				""
-				"A little key for ya:"
-				""
+				"A little key for ya: "
 				"Circle quests are simple/normal quests they wont take a lot of effort to finish and you'll get some decent rewards."
-				""
 				"Hexagon quests are a little tough they take quite a lot of effort but net better rewards."
-				""
 				"Octagon quests are the final quest in a chapter so they're the hardest and give the best loot!"
 			]
 			id: "7BEEE7B269A8E4AB"
@@ -35,11 +32,11 @@
 				type: "item"
 			}]
 			title: "The Basics of Baking"
-			x: -14.5d
-			y: -0.5d
+			x: -16.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["7BEEE7B269A8E4AB"]
+			dependencies: ["1E541A712A5E37BD"]
 			description: ["Craft every Muffin type!"]
 			icon: "pamhc2foodcore:chocolatemuffinitem"
 			id: "30A7CBBA5F7AEC9F"
@@ -108,11 +105,11 @@
 				}
 			]
 			title: "Its Muffin Time!"
-			x: -12.5d
-			y: -2.5d
+			x: -13.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["30A7CBBA5F7AEC9F"]
+			dependencies: ["021C28B3E87ABD4C"]
 			description: ["Craft every donut type!"]
 			icon: "pamhc2foodcore:sprinklesdonutitem"
 			id: "1BC2DDA7C036A78B"
@@ -207,7 +204,7 @@
 			]
 			title: "Mmmmmmm... Donut..."
 			x: -11.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["30A7CBBA5F7AEC9F"]
@@ -258,11 +255,11 @@
 				}
 			]
 			title: "Santa's Favorite Snacks"
-			x: -11.5d
-			y: -2.0d
+			x: -13.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1BC2DDA7C036A78B"]
+			dependencies: ["1E541A712A5E37BD"]
 			description: ["Craft all miscellaneous chocolate items!"]
 			icon: "pamhc2foodcore:chocolatebaritem"
 			id: "0BEE5B09C1AED5D0"
@@ -391,14 +388,11 @@
 				}
 			]
 			title: "Chocolatey Goodness"
-			x: -10.5d
-			y: -3.5d
+			x: -14.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"1BC2DDA7C036A78B"
-				"22DA19BC8E860281"
-			]
+			dependencies: ["1BC2DDA7C036A78B"]
 			dependency_requirement: "one_completed"
 			description: ["Craft every Ice Cream Item!"]
 			icon: "pamhc2foodcore:icecreamitem"
@@ -468,11 +462,11 @@
 				}
 			]
 			title: "You scream, Ice Cream"
-			x: -10.5d
-			y: -2.5d
+			x: -11.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["22DA19BC8E860281"]
+			dependencies: ["4DEB30AC623DBAD7"]
 			description: ["Craft all Miscellaneous sweets!"]
 			icon: "pamhc2foodcore:cottoncandyitem"
 			id: "66BB588DD72DAFFC"
@@ -560,14 +554,11 @@
 				}
 			]
 			title: "A whole lot of everything"
-			x: -10.5d
-			y: -1.5d
+			x: -9.5d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"0BEE5B09C1AED5D0"
-				"293E10F50420704F"
-			]
+			dependencies: ["18FE75AB294A0CB7"]
 			dependency_requirement: "one_completed"
 			description: ["Make every single type of cake!"]
 			icon: "minecraft:cake"
@@ -637,14 +628,11 @@
 				}
 			]
 			title: "Is it my Birthday?"
-			x: -9.5d
-			y: -3.0d
+			x: -12.5d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"293E10F50420704F"
-				"66BB588DD72DAFFC"
-			]
+			dependencies: ["6010C45A9D7B04BB"]
 			dependency_requirement: "one_completed"
 			description: ["Make every single type of pancake!"]
 			icon: "pamhc2foodextended:maplesyruppancakesitem"
@@ -678,14 +666,11 @@
 				}
 			]
 			title: "Part of a Balanced Brekafast"
-			x: -9.5d
-			y: -2.0d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"021C28B3E87ABD4C"
-				"1E50D03DA032D529"
-			]
+			dependencies: ["66BB588DD72DAFFC"]
 			description: ["Make every variation of toast!"]
 			icon: "pamhc2foodcore:toastitem"
 			id: "468EDE6D0502C648"
@@ -993,11 +978,12 @@
 				}
 			]
 			title: "Tough! I'm Toast...."
-			x: -8.5d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["7BEEE7B269A8E4AB"]
+			dependencies: ["22DA19BC8E860281"]
+			dependency_requirement: "all_started"
 			description: ["Bread :thumbsup:"]
 			icon: "minecraft:bread"
 			id: "54FD8A9D0629531C"
@@ -1077,7 +1063,7 @@
 			]
 			title: "Bread :thumbsup:"
 			x: -12.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["54FD8A9D0629531C"]
@@ -1160,12 +1146,12 @@
 			]
 			title: "Slippery Substance"
 			x: -11.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["54FD8A9D0629531C"]
+			dependencies: ["1BC2DDA7C036A78B"]
 			description: ["Make every Pizza!"]
-			icon: "pamhc2foodextended:meatfeastpizzaitem"
+			icon: "pamhc2foodextended:pepperonipizzaitem"
 			id: "4DEB30AC623DBAD7"
 			rewards: [{
 				count: 10
@@ -1217,13 +1203,13 @@
 				}
 			]
 			title: "Mamma Mia!"
-			x: -11.5d
-			y: 2.0d
+			x: -10.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["6010C45A9D7B04BB"]
+			dependencies: ["350FF597A6FF537E"]
 			description: ["Make all candied items!"]
-			icon: "pamhc2foodextended:maplecandiedbaconitem"
+			icon: "pamhc2foodextended:candiedgingeritem"
 			id: "76FC3980EBF05134"
 			rewards: [{
 				count: 32
@@ -1265,14 +1251,11 @@
 				}
 			]
 			title: "People eat this stuff?"
-			x: -10.5d
-			y: 0.5d
+			x: -9.5d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"6010C45A9D7B04BB"
-				"4DEB30AC623DBAD7"
-			]
+			dependencies: ["1E50D03DA032D529"]
 			dependency_requirement: "one_completed"
 			description: ["Make all waffle items!"]
 			icon: "pamhc2foodextended:maplesyrupwafflesitem"
@@ -1302,13 +1285,13 @@
 				}
 			]
 			title: "Creased Pancakes"
-			x: -10.5d
-			y: 1.5d
+			x: -9.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["4DEB30AC623DBAD7"]
+			dependencies: ["7BEEE7B269A8E4AB"]
 			description: ["Make all Oatmeals!"]
-			icon: "pamhc2foodextended:mapleoatmealitem"
+			icon: "pamhc2foodextended:cinnamonappleoatmealitem"
 			id: "1E541A712A5E37BD"
 			rewards: [{
 				count: 15
@@ -1319,33 +1302,29 @@
 			subtitle: "I don't care what you say, oatmeal is amazing!"
 			tasks: [
 				{
+					id: "67740DBA1EC99218"
+					item: "pamhc2foodextended:cinnamonappleoatmealitem"
+					type: "item"
+				}
+				{
 					id: "404112E507FD6F47"
 					item: "pamhc2foodextended:mapleoatmealitem"
 					type: "item"
 				}
 				{
-					id: "029CDD005CD88F35"
-					item: "pamhc2foodextended:cinnamonappleoatmealitem"
-					type: "item"
-				}
-				{
-					id: "20C2BD35D9C7F3C5"
+					id: "4C84BBEA010241A9"
 					item: "pamhc2foodextended:peachesandcreamoatmealitem"
 					type: "item"
 				}
 			]
 			title: "Granny's Favorite Dessert"
-			x: -10.5d
-			y: 2.5d
+			x: -13.5d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"76FC3980EBF05134"
-				"350FF597A6FF537E"
-				"1E541A712A5E37BD"
-			]
+			dependencies: ["0BEE5B09C1AED5D0"]
 			description: ["Make all Meringue items!"]
-			icon: "pamhc2foodextended:lemonmeringueitem"
+			icon: "pamhc2foodextended:meringueitem"
 			id: "18FE75AB294A0CB7"
 			rewards: [{
 				count: 3
@@ -1392,12 +1371,15 @@
 				}
 			]
 			title: "Fluffier Than a Cloud"
-			x: -9.5d
-			y: 1.5d
+			x: -13.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["18FE75AB294A0CB7"]
-			icon: "pamhc2foodextended:grapejellyitem"
+			dependencies: [
+				"76FC3980EBF05134"
+				"468EDE6D0502C648"
+			]
+			icon: "pamhc2foodcore:melonjellyitem"
 			id: "0D2DDE7B97A153F1"
 			rewards: [
 				{
@@ -1662,17 +1644,46 @@
 				}
 			]
 			title: "Tough! Im jelly..."
-			x: -8.5d
-			y: 1.5d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"468EDE6D0502C648"
 				"0D2DDE7B97A153F1"
+				"66BB588DD72DAFFC"
+				"54FD8A9D0629531C"
+				"350FF597A6FF537E"
+				"18FE75AB294A0CB7"
+				"1E541A712A5E37BD"
+				"021C28B3E87ABD4C"
+				"30A7CBBA5F7AEC9F"
+				"4DEB30AC623DBAD7"
+				"1BC2DDA7C036A78B"
+				"1E50D03DA032D529"
+				"76FC3980EBF05134"
+				"22DA19BC8E860281"
+				"6010C45A9D7B04BB"
+				"293E10F50420704F"
+				"0BEE5B09C1AED5D0"
 			]
 			description: ["Make all sandwiches!"]
-			icon: "pamhc2foodcore:grilledcheeseitem"
+			icon: "pamhc2foodextended:melonjellysandwichitem"
 			id: "54776FC70D51762E"
+			rewards: [
+				{
+					count: 32
+					id: "298677D187363666"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "59CD5BB176DCC881"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			subtitle: "Final Quest of the Baker's dozen chapter!"
 			tasks: [
@@ -2012,19 +2023,19 @@
 					type: "item"
 				}
 				{
+					id: "0E303B8E1D2878F4"
+					item: "pamhc2foodcore:grilledcheeseitem"
+					type: "item"
+				}
+				{
 					id: "2E6D636C9D2FD94C"
 					item: "pamhc2foodextended:grilledcheesevegemitetoastitem"
 					type: "item"
 				}
-				{
-					id: "0FF32EEECF679261"
-					item: "pamhc2foodcore:grilledcheeseitem"
-					type: "item"
-				}
 			]
 			title: "Final Quest! Sandwich Overload"
-			x: -7.0d
-			y: -0.5d
+			x: -11.5d
+			y: -1.5d
 		}
 	]
 	title: "A Baker's Dozen"

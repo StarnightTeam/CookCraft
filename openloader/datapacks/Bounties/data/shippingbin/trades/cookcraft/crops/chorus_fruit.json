@@ -1,5 +1,5 @@
 {
-  "attribute": "shippingbin:crop_sell_multiplier",
+	"attribute": "shippingbin:crop_sell_multiplier",
 	"input": {
 		"ingredient": {
 			"item": "minecraft:chorus_fruit"

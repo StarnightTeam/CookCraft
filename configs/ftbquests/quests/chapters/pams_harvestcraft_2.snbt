@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "pams_harvestcraft_2"
 	group: "56A29CC63F216935"
+	icon: "pamhc2foodcore:grilledcheeseitem"
 	id: "281D28E3C7DBEA17"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
 	title: "Pam's Harvestcraft 2"

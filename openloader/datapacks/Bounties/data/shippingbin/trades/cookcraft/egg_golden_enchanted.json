@@ -1,13 +1,12 @@
 {
-	"attribute": "shippingbin:TYPE",
 	"input": {
 		"ingredient": {
-			"item": "ITEM"
+			"item": "mynethersdelight:enchanted_golden_egg"
 		},
-	"count": 4
+	"count": 1
 	},
 	"output": {
 		"item": "minecraft:emerald",
-		"count": 1
+		"count": 64
 	}
 }

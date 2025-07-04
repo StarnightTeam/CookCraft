@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "first_we_cook"
 	group: "66334EA7D5F7A589"
+	icon: "minecraft:wheat_seeds"
 	id: "15BACDA136684E20"
 	order_index: 0
 	quest_links: [ ]
@@ -31,6 +32,7 @@
 					type: "item"
 				}
 			]
+			title: "A Seedy Place"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -48,6 +50,7 @@
 					type: "item"
 				}
 			]
+			title: "Tubular"
 			x: -4.0d
 			y: 0.0d
 		}
@@ -66,9 +69,10 @@
 					type: "item"
 				}
 			]
+			title: "Mangoes"
 			x: -4.0d
-			y: 2.5d
+			y: 1.5d
 		}
 	]
-	title: "First we forage..."
+	title: "Foraging"
 }

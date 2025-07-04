@@ -1,0 +1,13 @@
+{
+	"attribute": "shippingbin:meat_sell_multiplier",
+	"input": {
+		"ingredient": {
+			"item": "fishermans_haven:golden_shrimp"
+		},
+	"count": 2
+	},
+	"output": {
+		"item": "minecraft:emerald",
+		"count": 32
+	}
+}
