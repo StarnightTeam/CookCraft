@@ -1,0 +1,402 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishies_goin_fishing"
+	group: "66334EA7D5F7A589"
+	id: "49DB12811C570123"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "647FDE4826C3BE50"
+			tasks: [{
+				id: "1C6596C5F5DAF098"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "2921E39388566789"
+			tasks: [{
+				id: "6EAAA7360C63AC68"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "4FAA9575C82983A3"
+			tasks: [{
+				id: "19701E05237BEB93"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "06414CD4AE068C60"
+			tasks: [{
+				id: "16B112F29DFDB103"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "790B6619AE909367"
+			tasks: [{
+				id: "795F824855927282"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "656A483E4B46BCD1"
+			tasks: [{
+				id: "7226B8DE652BAC17"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "27B0CBA8CF9A072E"
+			tasks: [{
+				id: "7A8E7978E7194520"
+				item: {
+					Count: 1
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "4AFF49454CDFCFBF"
+			tasks: [{
+				id: "1C1CED1F0648BA81"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "6DA5CF7C18293C25"
+			tasks: [{
+				id: "16CF51483B7E3FA7"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"06414CD4AE068C60"
+				"656A483E4B46BCD1"
+				"647FDE4826C3BE50"
+				"4FAA9575C82983A3"
+				"790B6619AE909367"
+				"6DA5CF7C18293C25"
+				"4AFF49454CDFCFBF"
+				"27B0CBA8CF9A072E"
+				"2921E39388566789"
+			]
+			id: "3B73E9CAA28B601A"
+			subtitle: "Catch all freshwater fish."
+			title: "Freshwater"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "7C5913095EDBF871"
+			tasks: [{
+				id: "6B437D78A3E66263"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5FFBD26215A0090C"
+			tasks: [{
+				id: "2B764EB103EE8C04"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "2A464FCE96DBF8AB"
+			tasks: [{
+				id: "43B998BF2DED7F2D"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "34458B9AC91E2AD3"
+			tasks: [{
+				id: "7CCFC5A8C8AAB19F"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "15AA9FD924A2DE02"
+			tasks: [{
+				id: "20561CEC3AF9C227"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "4291875F34896CAE"
+			tasks: [{
+				id: "6455540D3F93AB89"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "342FCD3ECB3CC384"
+			tasks: [{
+				id: "6E6C5B054C344B3F"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "1554B0D0522014E5"
+			tasks: [{
+				id: "6876C01D324F1963"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "6D0BFF8A56D876FD"
+			tasks: [{
+				id: "22B817A397AF5C69"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "517A2933B649CF14"
+			tasks: [{
+				id: "25BD6CDD52F27242"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "59DD0DC02ED961DD"
+			tasks: [{
+				id: "35D4550560008115"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "6001978AA4287D56"
+			tasks: [{
+				id: "5EB1AE92F092FF2F"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "662A02320D877C40"
+			subtitle: "On your way to become the best fisherman ever!"
+			tasks: [{
+				id: "162E90C13B874637"
+				title: "INTRODUCTION"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1554B0D0522014E5"
+				"15AA9FD924A2DE02"
+				"6D0BFF8A56D876FD"
+				"517A2933B649CF14"
+				"6001978AA4287D56"
+				"4291875F34896CAE"
+				"342FCD3ECB3CC384"
+				"59DD0DC02ED961DD"
+			]
+			id: "569DEDA21EF7796B"
+			subtitle: "Catch all arctic fish."
+			title: "Arctic Ocean"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"34458B9AC91E2AD3"
+				"5FFBD26215A0090C"
+				"2A464FCE96DBF8AB"
+				"7C5913095EDBF871"
+			]
+			id: "4BE2AFFBFBBFD9CF"
+			subtitle: "Catch all dry fish."
+			title: "Arid"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"77DB46C863980C2A"
+				"54B4937869DA2A50"
+				"334B1CC342510BAE"
+			]
+			id: "265B635370DB8215"
+			subtitle: "Catch all salty fish."
+			title: "Saltwater"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CA04115D61DD33B"
+				"609838A54F2A0D50"
+				"273387A0C317581F"
+			]
+			id: "18A04B69CAEC6A18"
+			subtitle: "Catch all jungle fish."
+			title: "Jungle"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7AB81CFF389D2F9B"
+				"79AF3395B992A48D"
+			]
+			id: "362A5C439569D6A7"
+			subtitle: "Catch all mushroom fish!"
+			title: "Mushroom Island"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "334B1CC342510BAE"
+			tasks: [{
+				id: "360386D126BBDA55"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "77DB46C863980C2A"
+			tasks: [{
+				id: "2263B8BE8F9D4DFD"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "54B4937869DA2A50"
+			tasks: [{
+				id: "4E0DF35B7FDBB325"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "273387A0C317581F"
+			tasks: [{
+				id: "362A6F848AFE8946"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "609838A54F2A0D50"
+			tasks: [{
+				id: "5D4E7E599A4902F4"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5CA04115D61DD33B"
+			tasks: [{
+				id: "1B1AFF94F2CB8C40"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "7AB81CFF389D2F9B"
+			tasks: [{
+				id: "77EE0FFF9A801372"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "79AF3395B992A48D"
+			tasks: [{
+				id: "7E8EBA86D1095E9C"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "Fishies goin' fishing"
+}

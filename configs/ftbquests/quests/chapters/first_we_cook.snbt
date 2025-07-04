@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_we_cook"
+	group: "66334EA7D5F7A589"
+	id: "15BACDA136684E20"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7FC3E73A544D6E51"
+			tasks: [
+				{
+					id: "484B47612CF8A5CF"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "51EA3C55A99C89F0"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "72D8A9A00CCF79D6"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "1499AAF2E00766DF"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "472431F39FCE2E70"
+			tasks: [
+				{
+					id: "3DB88DC9F3D77DAB"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "0054DB9617F6498E"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["Trees of those fruits grow all around the place, and their drops are much more plentiful than their Pam's counterparts! Definitely a must find for beginner chefs."]
+			id: "7004440798F2EAC1"
+			tasks: [
+				{
+					id: "2A182C418F1D2352"
+					item: "cozyfoods:mango"
+					type: "item"
+				}
+				{
+					id: "382F78C00AABFDA9"
+					item: "cozyfoods:lychee"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+	]
+	title: "First we forage..."
+}

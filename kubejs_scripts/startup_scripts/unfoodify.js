@@ -1,5 +1,7 @@
 // Script by Lyria
+/*
 ItemEvents.modification(event => {
+
   // Loop through the list of food items and remove their food properties
   // aka "unfood" them
   global.remove_and_replace.forEach(item_array => {
@@ -11,3 +13,5 @@ ItemEvents.modification(event => {
   })
 
 })
+*/
+// Disabled by vizthex since it's not working rn

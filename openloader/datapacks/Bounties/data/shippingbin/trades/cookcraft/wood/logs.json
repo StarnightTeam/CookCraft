@@ -1,0 +1,13 @@
+{
+  "attribute": "shippingbin:wood_sell_multiplier",
+	"input": {
+		"ingredient": {
+			"tag": "minecraft:logs"
+		},
+	"count": 12
+	},
+	"output": {
+		"item": "minecraft:emerald",
+		"count": 2
+	}
+}

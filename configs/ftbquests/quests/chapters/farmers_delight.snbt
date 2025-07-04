@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "56A29CC63F216935"
+	id: "39476E8CB09FAE46"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"killing mobs with it grants a new type of meats, gives a new item when cutting down tall grass (idk kat put this info beautifully somehow wah sory)"
+				"You can also use it at the cutting board, cutting food or stabbing the board outright! (Children please don't try this at home...)"
+			]
+			id: "05314A679EC14C29"
+			tasks: [{
+				id: "4CD135394B8B74E8"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: "farmersdelight:stove"
+			id: "48AE2C5E5DBC34DD"
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "1EACA8811FAA735D"
+				item: {
+					Count: 2
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:stove"
+							}
+							{
+								Count: 1b
+								id: "minecraft:campfire"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Cook with it, fight with it, whatever your heart desires! Like a child of a furnace and a campfire, fits a stack and cooks without fuel. Also enables you to cook on the go near a heat source, just hold the raw ingredient and hold right click with the Skillet in hand!"]
+			id: "1B98E38F22EA48EB"
+			subtitle: "Obtain a Skillet"
+			tasks: [{
+				id: "124261BF8651CC8B"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The ultimate life(?)form!"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: ["This bad boy will cook you a huge meal, check JEI for possible recipes"]
+			id: "1FB7DB4D83BA3813"
+			tasks: [{
+				id: "4CC6EFA1CDA660FE"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["if you enchant a skillet with fire aspect it cooks twice as fast XD"]
+			id: "57E298DDCFBC3D76"
+			tasks: [{
+				id: "36ACA1167FBCEDDC"
+				title: "stupid thing (according to phylo)"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["Functions like a chests, naturally acts like a hopper and just looks fabulous!"]
+			id: "6CB774287D2B8F9F"
+			tasks: [{
+				id: "757E269F1E151C59"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	title: "Farmer's Delight"
+}

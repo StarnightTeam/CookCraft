@@ -1,0 +1,11 @@
+{
+	id: "6D27F24FC04EAF74"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:sandy_waystone" }
+	]
+	title: "waystone"
+}

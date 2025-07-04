@@ -1,0 +1,11 @@
+// Removes recipes for whatever reason
+// Script by vizthex
+ServerEvents.recipes(e => {
+
+    // Ecologics' coconut husk recipes
+    e.remove({id: "ecologics:beetroot_soup_from_coconut_husk"})
+    e.remove({id: "ecologics:mushroom_stew_from_coconut_husk"})
+    e.remove({id: "ecologics:rabbit_stew_from_red_mushroom_and_coconut_husk"})
+    e.remove({id: "ecologics:rabbit_stew_from_brown_mushroom_and_coconut_husk"})
+
+})

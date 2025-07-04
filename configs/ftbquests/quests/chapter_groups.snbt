@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "263F7E5FB1328B7F", title: "CookCraft" }
+		{ id: "56A29CC63F216935", title: "Completionist's Dream" }
+		{ id: "541666FFE70E8564", title: "idk yet" }
+		{ id: "66334EA7D5F7A589", title: "First we forage..." }
+		{ id: "49AB598CD85AB229", title: "Then we cook!" }
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "attribute": "shippingbin:wood_sell_multiplier",
+	"input": {
+		"ingredient": {
+			"tag": "minecraft:saplings"
+		},
+	"count": 8
+	},
+	"output": {
+		"item": "minecraft:emerald",
+		"count": 1
+	}
+}

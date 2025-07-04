@@ -183,10 +183,9 @@
 					"minecraft:plugins/oxidizing",
 					"minecraft:plugins/oxidation_scraping",
 					"quark:influence",
+					"shippingbin:plugins/trading",
 					"adminshop:jei_buy_recipe",
 					"adminshop:jei_sell_recipe",
-					"hostilenetworks:sim_chamber",
-					"hostilenetworks:loot_fabricator",
 					"thermal:pulverizer",
 					"thermal:furnace",
 					"thermal:sawmill",
@@ -265,7 +264,6 @@
 					"cozyfoods:spinner",
 					"cozyfoods:kettle",
 					"vintagedelight:fermenting",
-					"shippingbin:plugins/trading",
 					"ftbquests:quest",
 					"roughlyenoughresources:the_nether_worldgen_category",
 					"roughlyenoughresources:overworld_worldgen_category",
@@ -274,10 +272,9 @@
 					"roughlyenoughresources:entity_loot_category",
 					"roughlyenoughresources:loot_category",
 					"roughlyenoughitems:plugins/information",
-					"minecraft:plugins/tag",
+					"minecraft:plugins/tag"
 				],
-				"hiddenCategories": [
-				]
+				"hiddenCategories": []
 			}
 		},
 		"filtering": {

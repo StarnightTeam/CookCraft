@@ -1,0 +1,13 @@
+{
+  "attribute": "shippingbin:crop_sell_multiplier",
+	"input": {
+		"ingredient": {
+			"item": "minecraft:chorus_fruit"
+		},
+	"count": 2
+	},
+	"output": {
+		"item": "ae2:ender_dust",
+		"count": 1
+	}
+}

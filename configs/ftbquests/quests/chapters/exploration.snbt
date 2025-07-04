@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "541666FFE70E8564"
+	id: "133897996B4379BD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Don't go in without preparation!"]
+		id: "5C8C35ACC488F198"
+		tasks: [{
+			id: "159CE28BFBD5A0F2"
+			structure: "glowberry_expantion:glow_temple"
+			title: "Sweet Danger"
+			type: "structure"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Exploration"
+}

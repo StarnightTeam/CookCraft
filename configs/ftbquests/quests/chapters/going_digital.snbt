@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "going_digital"
+	group: "541666FFE70E8564"
+	id: "2FF97AAA8D5D50CA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["Swipe a ME kitchen station through the wireless receiver to bind it to the system, then put it on a kitchen counter to connect your AE to the kitchen!"]
+		id: "0739D312F977C206"
+		tasks: [
+			{
+				id: "2D453D782960EAB1"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}
+			{
+				id: "4D88212BD281FB8C"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Going Digital!"
+}

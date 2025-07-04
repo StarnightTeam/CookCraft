@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 15,
-        "description": "Test pack to see if Lyria wants to use these mods for bounties."
+        "description": "Adds bounties and shipping bin trades."
     },
 	"filter": {
 		"block": [

@@ -1,6 +1,6 @@
 {
 	"objectives": [
-		"test"
+		"chef_objectives"
 	],
 	"rewards": [
 		"payment"

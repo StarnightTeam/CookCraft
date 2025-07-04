@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intro"
+	group: "263F7E5FB1328B7F"
+	id: "71B9AED142437512"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7A84E76A107B10C2"
+			rewards: [{
+				count: 16
+				id: "4F439678C643C350"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "25ED1102C3963BF8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			description: ["Youve found/grown your first wheat"]
+			id: "6E3712FE8A492516"
+			tasks: [{
+				id: "754F2D76A17EBEAB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wheat"
+							}
+							{
+								Count: 1b
+								id: "minecraft:hay_block"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A84E76A107B10C2"]
+			id: "14727BE8DC41CDDD"
+			tasks: [
+				{
+					id: "4DD37FC1CC07F512"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "Any #minecraft:beds"
+					type: "item"
+				}
+				{
+					id: "0818E9F092CC4DE3"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "5FD4FD2B5000C958"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "Any #forge:chests"
+					type: "item"
+				}
+			]
+			title: "The Legendary Trio"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E3712FE8A492516"]
+			description: ["Bake/find your first bread!!!!!!"]
+			id: "4B62A61341B013FB"
+			tasks: [{
+				id: "108DAEDB8F496AED"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B62A61341B013FB"]
+			description: [
+				"Find any Farmer's Delight seeds (put an OR filter here i cant rn im in survival XD)"
+				"Unlocks Farmer's Delight chapter"
+			]
+			id: "38BB38815ABCD748"
+			tasks: [{
+				id: "10769453237C67E2"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "3656DF8BCDB071C8"
+			tasks: [{
+				id: "7032CCD328579F45"
+				title: "WELCOME TO THE MODPACK!!!"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			description: ["This packs comes with a gravestones mod by default, but it is your choice if you prefer playing on keep inventory ^^ Both are fine, and the pack is well suited for both! Pick whichever you feel more comfortable with :)"]
+			id: "402898657E4216B3"
+			tasks: [{
+				id: "074BF89F2DB0D182"
+				title: "About the pack"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "55FE299458D31819"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CA6CDD8067FB2B5"
+				table_id: 7865521698568580980L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6A5BC7E908EB06DD"
+				title: "Find a place to settle down"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Intro"
+}

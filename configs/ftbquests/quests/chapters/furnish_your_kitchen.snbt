@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "furnish_your_kitchen"
+	group: "263F7E5FB1328B7F"
+	id: "4C152B7A0343BB63"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BCC1CBACAEB8C5F"
+			tasks: [{
+				id: "27B5F2F9E7954319"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BCC1CBACAEB8C5F"]
+			id: "1A57FE773F1350EA"
+			progression_mode: "linear"
+			tasks: [{
+				id: "315A6CD8BA7F3074"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A57FE773F1350EA"]
+			id: "751FD461890A2032"
+			tasks: [{
+				id: "3C6A785D6B776304"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "398C836608399FED"
+			rewards: [{
+				count: 5
+				id: "5A5D9397FB0141BD"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4570D9DF60DEB1D9"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "5D2A4B53A62658B7"
+			tasks: [{
+				id: "78E1D5E3746BB8CC"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "76AFED4B3554124D"
+			tasks: [{
+				id: "2075E97C5D20807D"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "6DFF2A373AC5DF11"
+			tasks: [{
+				count: 2L
+				id: "482314778912AE2C"
+				item: { Count: 2, id: "cookingforblockheads:fridge" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["751FD461890A2032"]
+			id: "73A08D868BB3AE74"
+			tasks: [{
+				id: "28CD7EC2E08F1F78"
+				item: "cookingforblockheads:toaster"
+				type: "item"
+			}]
+			x: -0.06122448979591866d
+			y: 2.301020408163275d
+		}
+		{
+			dependencies: ["751FD461890A2032"]
+			id: "2D0210AF32669A73"
+			tasks: [{
+				id: "14ACDB33C68A03B0"
+				item: "cookingforblockheads:tool_rack"
+				type: "item"
+			}]
+			x: -2.5102040816326507d
+			y: 2.076530612244902d
+		}
+		{
+			dependencies: ["751FD461890A2032"]
+			id: "0A84445A1E5DA904"
+			tasks: [{
+				id: "68DFC8768F2806A1"
+				item: "cookingforblockheads:spice_rack"
+				type: "item"
+			}]
+			x: -3.3265306122448948d
+			y: 1.1581632653061291d
+		}
+		{
+			dependencies: ["751FD461890A2032"]
+			id: "3E6991EEDBE624E4"
+			tasks: [{
+				id: "7DEF6352AABB9B6E"
+				item: "cookingforblockheads:fruit_basket"
+				type: "item"
+			}]
+			x: -1.183673469387756d
+			y: 2.4642857142857153d
+		}
+		{
+			dependencies: ["751FD461890A2032"]
+			id: "51A03B8140AE2B6A"
+			tasks: [{
+				id: "0B1D8218DCC81630"
+				item: "cookingforblockheads:milk_jar"
+				type: "item"
+			}]
+			x: 1.0204081632653086d
+			y: 1.7908163265306172d
+		}
+		{
+			dependencies: ["51A03B8140AE2B6A"]
+			id: "6C438749B3BC9C9B"
+			tasks: [{
+				id: "2158AF10E961B919"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: 2.0816326530612272d
+			y: 2.301020408163275d
+		}
+	]
+	title: "Furnish your Kitchen!"
+}

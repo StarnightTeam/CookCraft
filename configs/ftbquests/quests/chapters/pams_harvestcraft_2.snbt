@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pams_harvestcraft_2"
+	group: "56A29CC63F216935"
+	id: "281D28E3C7DBEA17"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pam's Harvestcraft 2"
+}

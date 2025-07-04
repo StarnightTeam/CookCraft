@@ -1,0 +1,56 @@
+{
+    "content": {
+        "mini_coal": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minicoal:mini_coal",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 1,
+			"weightMult": 0.9
+        },
+        "mini_charcoal": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minicoal:mini_charcoal",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 1,
+			"weightMult": 0.9
+        },
+        "emerald": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "minecraft:emerald",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 5
+        },
+        "iron_ingot": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 10
+        },
+        "diamond": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:diamond",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 250
+        }
+    }
+}

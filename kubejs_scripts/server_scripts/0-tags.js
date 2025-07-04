@@ -2,13 +2,21 @@
 // Script by vizthex
 ServerEvents.tags("item", e => {
 
-    //// Custom
+    //// Custom ////
+
+    /// Recipes
+    e.add("cookcraft:bowl", ["bowl", "ecologics:coconut_husk"])
+
+    /// Bounties
+    e.add("cookcraft:sandwich", ["pamhc2foodextended:bolognasandwichitem", "pamhc2foodextended:melonjellysandwichitem", "pamhc2foodextended:sweetberryjellysandwichitem"])
+
+    e.add("cookcraft:sandwich/grilled_cheese", ["pamhc2foodcore:grilledcheeseitem", "pamhc2foodextended:groiledcheesesandwichitem", "pamhc2foodextended:grilledcheesevegemitetoastitem", "refurbished_furniture:cheese_toastie"])
 
 
 
-    //// Forge
+    //// Forge ////
+
     /// Fixes
-
     // Dusts
     e.add("forge:salt/salt", ["pamhc2foodcore:saltitem"])
     e.add("forge:dusts/salt", ["fishermans_haven:salt", "pamhc2foodcore:saltitem", "refurbished_furniture:sea_salt"])
@@ -22,10 +30,17 @@ ServerEvents.tags("item", e => {
     e.add("forge:seeds/papyrus", ["pamhc2crops:papyrusseeditem"])
     e.add("forge:seeds/sunchoke", ["pamhc2crops:sunchokeseeditem"])
 
+    // Grain
+    e.add("forge:grain", ["vintagedelight:oat"])
+
+
+    // Fruits
+    e.add("forge:fruits/mango", ["bountiful_saplings:mango"])
+
 
     // Mushrooms
     e.add("mushroomquest:mushrooms", ["mushroomquest:silver_leaf_fungus"])
- 
+  
 
     // Raw Meat
     // It should be raw_meats, but for some reason it"s not
