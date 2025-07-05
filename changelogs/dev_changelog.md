@@ -15,6 +15,12 @@ Made recipes that require Bowls use the `cookcraft:furnace` tag<br />
 Made recipes that require Bowls use the `cookcraft:bowl` tag<br />
 Made recipes that require Crafting Tables use the `forge:crafting_tables` tag
 
+
+
+Removed Nether's Delight<br />
+Removed SDM Engine Core
+
+
 Added the following mods:
 
 Bountiful<br />
@@ -22,12 +28,13 @@ Bountiful Saplings<br />
 Open Loader<br />
 Shipping Bin
 
-Removed Nether's Delight<br />
-Removed SDM Engine Core
 
-Updated Ecologics<br />
-Updated ExtraLib<br />
-Updated ModernFix
+Updated the following mods:
+
+Ecologics<br />
+ExtraLib<br />
+Fisherman's Haven<br />
+ModernFix
 
 
 <br /> <br />

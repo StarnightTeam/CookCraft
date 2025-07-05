@@ -133,6 +133,10 @@ sellItem("essentiallycurrency:netherite_coin", 1, 7500)
 /// Purchasing items costs 5x their sell price, and gives one tier below the sale (e.g. you get dust instead of an ingot)
 // Currencies
 buyItem("coinsje:copper_coin", 1, 100)
+buyItem("coinsje:iron_coin", 1, 1000)
+buyItem("coinsje:gold_coin", 1, 10000)
+buyItem("coinsje:diamond_coin", 1, 100000)
+buyItem("coinsje:netherite_coin", 1, 1000000)
 
 /// Items
 buyItem("bricks", 1, 250)
@@ -143,9 +147,14 @@ buyItem("ae2:charged_certus_quartz_crystal", 1, 8000, "me_expert")
 //// Selling ////
 /// Currencies
 sellItem("coinsje:copper_coin", 1, 100)
+sellItem("coinsje:iron_coin", 1, 1000)
+sellItem("coinsje:gold_coin", 1, 10000)
+sellItem("coinsje:diamond_coin", 1, 100000)
+sellItem("coinsje:netherite_coin", 1, 1000000)
 
 /// Items
-sellItem("bread", 1, 500)
+sellTag("forge:bread", 1, 300)
+sellTag("cookcraft:pie", 1, 600)
 sellTag("cookcraft:sandwich", 1, 750)
 
 })

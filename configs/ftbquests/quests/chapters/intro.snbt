@@ -307,13 +307,13 @@
 			icon: "minecraft:coal"
 			id: "1FCB023E62451E6A"
 			rewards: [{
-				count: 5
+				count: 8
 				id: "46D64ECA230A653A"
 				item: "minecraft:torch"
 				type: "item"
 			}]
 			tasks: [{
-				count: 5L
+				count: 4L
 				id: "3A5DBF83DADBB624"
 				item: {
 					Count: 1
@@ -334,29 +334,44 @@
 				"1FCB023E62451E6A"
 				"35DDFCC2F3ADABFC"
 			]
+			description: [
+				"The basic Furnace can be specialized into a Smoker - which cooks food twice as fast - or a Blast Furnace, which smelts ores twice as fast."
+				""
+				"Both are optional, but will prove themselves quite useful if utilized."
+			]
 			icon: "minecraft:furnace"
 			id: "4507C64ACF7743DF"
+			rewards: [{
+				id: "677178FC639B4386"
+				item: "adminshop:shop"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "413F186FCE9926A1"
-					item: "minecraft:furnace"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "20BFB5747DEA22AE"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "balm:iron_ingots"
+							value: "cookcraft:furnaces"
 						}
 					}
-					title: "Any #balm:iron_ingots"
+					title: "Any Furnace"
+					type: "item"
+				}
+				{
+					id: "466CAEBC3AF7F088"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "2603ED9847EF2097"
+					item: "minecraft:blast_furnace"
+					optional_task: true
 					type: "item"
 				}
 			]
-			title: "Forms of cooking"
+			title: "Forms of Cooking"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -471,6 +486,37 @@
 			}]
 			x: 8.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2659349439131060"]
+			description: [
+				"Certus Quartz crystals have decided to migrate out of the ground and into meteors, so you will have to find a meteor to find the crystals."
+				""
+				"A Meteorite Compass can help you locate them, but isn't required."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "28EFB270C4C654E8"
+			rewards: [{
+				id: "152921DEA4CDF8CA"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67D7488BDC335122"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "0F7DE09D0998CE21"
+					item: "ae2:meteorite_compass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Applied Crystology"
+			x: 5.0d
+			y: -0.5d
 		}
 	]
 	title: "Intro"

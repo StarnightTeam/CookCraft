@@ -1,0 +1,14 @@
+{
+	icon: "ae2:purple_smart_cable"
+	id: "01B7838A8DD48422"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 8, item: "ae2:fluix_glass_cable" }
+		{ count: 8, item: "ae2:fluix_covered_cable" }
+		{ count: 8, item: "ae2:fluix_smart_cable" }
+		{ count: 4, item: "ae2:fluix_smart_dense_cable" }
+	]
+	title: "Cabling Conundrum"
+	use_title: true
+}

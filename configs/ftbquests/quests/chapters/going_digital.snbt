@@ -3,28 +3,93 @@
 	default_quest_shape: ""
 	filename: "going_digital"
 	group: "541666FFE70E8564"
-	icon: "appliedcooking:kitchen_station"
+	icon: "ae2:controller"
 	id: "2FF97AAA8D5D50CA"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: ["Swipe a ME kitchen station through the wireless receiver to bind it to the system, then put it on a kitchen counter to connect your AE to the kitchen!"]
-		icon: "appliedcooking:kitchen_station"
-		id: "0739D312F977C206"
-		tasks: [
-			{
-				id: "4D88212BD281FB8C"
-				item: "ae2:wireless_access_point"
+	quests: [
+		{
+			dependencies: [
+				"02753CB9CDDB1A73"
+				"751FD461890A2032"
+			]
+			description: [
+				"Place the Kitchen Station inside of a Wireless Access Point, and it will be bound to the ME System."
+				""
+				"When connected to a Kitchen, it will draw items from the system so they can be used in each block."
+				""
+				"If the Wireless Access Point is moved, you will need to re-bind the Kitchen Station."
+			]
+			icon: "appliedcooking:kitchen_station"
+			id: "0739D312F977C206"
+			tasks: [
+				{
+					id: "4D88212BD281FB8C"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "4BAD9930D463DD57"
+					item: "appliedcooking:kitchen_station"
+					type: "item"
+				}
+			]
+			title: "Remote Cooking"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"ME Systems are the most advanced form of item storage and automation around, and as with all technology they require power to run."
+				""
+				"Start by making a basic power generator."
+			]
+			id: "02753CB9CDDB1A73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2966DF02A0B98895"
+					table_id: 123712145884218402L
+					type: "choice"
+				}
+				{
+					id: "65E3DDCC5D6D8E16"
+					item: "coinsje:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09B948974C2A82C7"
+				item: "ae2:crystal_resonance_generator"
 				type: "item"
-			}
-			{
-				id: "4BAD9930D463DD57"
-				item: "appliedcooking:kitchen_station"
+			}]
+			title: "Resonating Power"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02753CB9CDDB1A73"]
+			description: [
+				"Controllers aren't required for basic systems (with 8 or fewer channels), but it's good to plan your system around having one just in case."
+				""
+				"They provide 32 Channels per side, and can be built up to a maximum size of 7x7x7 (with no faces)."
+			]
+			id: "49D19652FEEF2C13"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "3AAAEB33DA3D55A8"
+				item: "ae2:fluix_smart_dense_cable"
 				type: "item"
-			}
-		]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			tasks: [{
+				id: "61335539C9656736"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+	]
 	title: "Going Digital!"
 }

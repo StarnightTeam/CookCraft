@@ -6,7 +6,7 @@
 	"count": 1
 	},
 	"output": {
-		"item": "minecraft:emerald",
-		"count": 64
+		"item": "coinsje:gold_coin",
+		"count": 4
 	}
 }

@@ -12,15 +12,394 @@
 			tabEntry: [
 				{
 					entryUUID: [I;
-						1950079102
-						1673937049
-						-1801051580
-						-506256620
+						-1772334918
+						383730676
+						-1348639214
+						-910222304
 					]
 					entryPrice: 1L
 					entryType: {
 						itemStack: {
 							id: "coinsje:copper_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						1084961019
+						1456950257
+						-1153886865
+						1005242546
+					]
+					entryPrice: 10L
+					entryType: {
+						itemStack: {
+							id: "coinsje:iron_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-338286438
+						1927433452
+						-1678334043
+						2041216831
+					]
+					entryPrice: 100L
+					entryType: {
+						itemStack: {
+							id: "coinsje:gold_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						1771399401
+						-1355133667
+						-1952224332
+						-1661074722
+					]
+					entryPrice: 1000L
+					entryType: {
+						itemStack: {
+							id: "coinsje:diamond_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-1492445675
+						1026706927
+						-1937143251
+						1122217755
+					]
+					entryPrice: 10000L
+					entryType: {
+						itemStack: {
+							id: "coinsje:netherite_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						2126081601
+						-490846901
+						-1888851386
+						460583616
+					]
+					entryPrice: 90L
+					entryType: {
+						itemStack: {
+							id: "coinsje:iron_coin_pile"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						1090748002
+						-236960573
+						-1548662807
+						-2044236880
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "coinsje:copper_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-1513068084
+						-1350152743
+						-1225774756
+						781422720
+					]
+					entryPrice: 10L
+					entryType: {
+						itemStack: {
+							id: "coinsje:iron_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-291682605
+						-703772409
+						-1166010111
+						-587227622
+					]
+					entryPrice: 100L
+					entryType: {
+						itemStack: {
+							id: "coinsje:gold_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						2007490802
+						-561691147
+						-1635168569
+						4032593
+					]
+					entryPrice: 1000L
+					entryType: {
+						itemStack: {
+							id: "coinsje:diamond_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						1549395481
+						-270053684
+						-1198513985
+						-1741302337
+					]
+					entryPrice: 10000L
+					entryType: {
+						itemStack: {
+							id: "coinsje:netherite_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-22942949
+						1922646554
+						-1637800673
+						-1922447022
+					]
+					entryPrice: 900L
+					entryType: {
+						itemStack: {
+							id: "coinsje:gold_coin_pile"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+			]
+			icon: {
+				id: "coinsje:copper_coin_pile"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			shopTabUUID: [I;
+				-108949066
+				1640254185
+				-1696337792
+				-2053008457
+			]
+			title: "Coins"
+		}
+		{
+			tabEntry: [
+				{
+					entryUUID: [I;
+						-1015508696
+						610946394
+						-1374276111
+						-178950362
+					]
+					entryPrice: 2L
+					entryType: {
+						itemStack: {
+							id: "minecraft:bricks"
 							Count: 1b
 						}
 						shopEntryTypeID: "shopItemEntryType"
@@ -73,36 +452,6 @@
 						shopSellerTypeID: "item"
 					}
 				}
-				{
-					entryUUID: [I;
-						-1015508696
-						610946394
-						-1374276111
-						-178950362
-					]
-					entryPrice: 2L
-					entryType: {
-						itemStack: {
-							id: "minecraft:bricks"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 0b
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-					shopSeller: {
-						moneyID: "base_money"
-						shopSellerTypeID: "money"
-					}
-				}
 			]
 			icon: {
 				id: "adminshop:buyer_1"
@@ -122,36 +471,6 @@
 		}
 		{
 			tabEntry: [
-				{
-					entryUUID: [I;
-						622226571
-						1684750548
-						-1773525026
-						-288746282
-					]
-					entryPrice: 1L
-					entryType: {
-						itemStack: {
-							id: "coinsje:copper_coin"
-							Count: 1b
-						}
-						shopEntryTypeID: "shopItemEntryType"
-					}
-					entryCount: 1
-					isSell: 1b
-					icon: {
-						id: "minecraft:barrier"
-						Count: 1b
-					}
-					entryCondition: [{
-						questID: [ ]
-						entryConditionID: "ftbquestConditions"
-					}]
-					shopSeller: {
-						moneyID: "base_money"
-						shopSellerTypeID: "money"
-					}
-				}
 				{
 					entryUUID: [I;
 						586175873
@@ -220,7 +539,7 @@
 				}
 			]
 			icon: {
-				id: "coinsje:copper_coin"
+				id: "minecraft:arrow"
 				Count: 1b
 			}
 			tabCondition: [{

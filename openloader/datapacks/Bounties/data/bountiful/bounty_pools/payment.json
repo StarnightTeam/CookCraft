@@ -1,56 +1,44 @@
 {
     "content": {
-        "mini_coal": {
+        "copper_coin": {
             "type": "item",
             "rarity": "COMMON",
-            "content": "minicoal:mini_coal",
+            "content": "coinsje:copper_coin",
             "amount": {
                 "min": 1,
-                "max": 8
+                "max": 64
             },
-            "unitWorth": 1,
-			"weightMult": 0.9
+            "unitWorth": 1
         },
-        "mini_charcoal": {
+        "iron_coin": {
             "type": "item",
             "rarity": "COMMON",
-            "content": "minicoal:mini_charcoal",
+            "content": "coinsje:iron_coin",
             "amount": {
                 "min": 1,
-                "max": 8
+                "max": 32
             },
-            "unitWorth": 1,
-			"weightMult": 0.9
+            "unitWorth": 10
         },
-        "emerald": {
+        "iron_coin_pile": {
             "type": "item",
-            "rarity": "COMMON",
-            "content": "minecraft:emerald",
+            "rarity": "UNCOMMON",
+            "content": "coinsje:iron_coin_pile",
+            "amount": {
+                "min": 1,
+                "max": 24
+            },
+            "unitWorth": 90
+        },
+        "gold_coin": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "coinsje:gold_coin",
             "amount": {
                 "min": 1,
                 "max": 16
             },
-            "unitWorth": 5
-        },
-        "iron_ingot": {
-            "type": "item",
-            "rarity": "UNCOMMON",
-            "content": "minecraft:iron_ingot",
-            "amount": {
-                "min": 2,
-                "max": 8
-            },
-            "unitWorth": 10
-        },
-        "diamond": {
-            "type": "item",
-            "rarity": "RARE",
-            "content": "minecraft:diamond",
-            "amount": {
-                "min": 1,
-                "max": 4
-            },
-            "unitWorth": 250
+            "unitWorth": 100
         }
     }
 }
