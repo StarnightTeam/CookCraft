@@ -7,7 +7,10 @@ Changelog used during development.
 Improved the basic quests<br />
 Added some basic bounties
 
+Buffed AE2's Crystal Resonator's power output to 64/t (was 20)
+
 Fixed several items missing tags<br />
+Added several more items to the backpack whitelist<br />
 Made recipes that require Bowls use the `cookcraft:furnace` tag<br />
 Made recipes that require Bowls use the `cookcraft:bowl` tag<br />
 Made recipes that require Crafting Tables use the `forge:crafting_tables` tag
@@ -19,8 +22,10 @@ Bountiful Saplings<br />
 Open Loader<br />
 Shipping Bin
 
-Removed Nether's Delight
+Removed Nether's Delight<br />
+Removed SDM Engine Core
 
+Updated Ecologics<br />
 Updated ExtraLib<br />
 Updated ModernFix
 

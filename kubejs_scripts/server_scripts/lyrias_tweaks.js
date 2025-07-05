@@ -6,37 +6,18 @@ BlockEvents.farmlandTrampled(event => {
   if(event.player.feetArmorItem.hasEnchantment('minecraft:feather_falling', 4)) e.cancel()
 })
 
-/*
-ServerEvents.recipes(event => { 
-    
-    event.replaceInput(
-        { input: 'fishermans_haven:fishermans_knife' }, // Arg 1: the filter
-        'fishermans_haven:fishermans_knife',            // Arg 2: the item to replace
-        '#forge:tools/knives'         // Arg 3: the item to replace it with
-      )
-    
-
-
-ServerEvents.recipes(event => {
-    remove_and_replace.forEach(item => {
-        event.remove({output: item[0]})
-        if (item[1] !== null && item[1] !== undefined) {
-        event.replaceInput(
-            { input: item[0] },
-            item[0],
-            item[1]) }
-        event.replaceOutput(
-            { output: item[0] },
-            item[0],
-            item[1])
-    });
-})
-    
-})
-*/
+// WIP - Lyria
+/*LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("minecraft:chicken")
+        .matchDamageSource((source) => {
+            // Your code. Check DamageSourcePredicateBuilderJS for more information
+        }) 
+        .addLoot("minecraft:diamond");
+});*/
 
 /*
-// file: kubejs/server_scripts/crab_loot.js
+// Does not work - calls the loot table twice
 
 LootJS.modifiers((event) => {
     event
@@ -55,7 +36,5 @@ LootJS.modifiers((event) => {
       )
       .addLoot("crabbersdelight:crab")
 
-  })
-
-
+})
 */

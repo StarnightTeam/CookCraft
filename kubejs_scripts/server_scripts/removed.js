@@ -8,4 +8,7 @@ ServerEvents.recipes(e => {
     e.remove({id: "ecologics:rabbit_stew_from_red_mushroom_and_coconut_husk"})
     e.remove({id: "ecologics:rabbit_stew_from_brown_mushroom_and_coconut_husk"})
 
+    // Remove the Tapioca Pearl recipe
+    e.remove([{ type: "minecraft:smelting", output: "cozyfoods:tapioca_pearls" }, { type: "minecraft:smoking", output: "cozyfoods:tapioca_pearls" }])
+
 })

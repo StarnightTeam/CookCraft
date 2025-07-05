@@ -1,0 +1,239 @@
+{
+	sdmversion: "1.0.0"
+	shopName: ""
+	shopUUID: [I;
+		-2057943197
+		397231395
+		-1331480584
+		-2029577367
+	]
+	shopTabs: [
+		{
+			tabEntry: [
+				{
+					entryUUID: [I;
+						1950079102
+						1673937049
+						-1801051580
+						-506256620
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "coinsje:copper_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						488564459
+						-1575600126
+						-1676858381
+						-1815419536
+					]
+					entryPrice: 8L
+					entryType: {
+						itemStack: {
+							id: "ae2:charged_certus_quartz_crystal"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "minecraft:quartz"
+							Count: 1b
+						}
+						shopSellerTypeID: "item"
+					}
+				}
+				{
+					entryUUID: [I;
+						-1015508696
+						610946394
+						-1374276111
+						-178950362
+					]
+					entryPrice: 2L
+					entryType: {
+						itemStack: {
+							id: "minecraft:bricks"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+			]
+			icon: {
+				id: "adminshop:buyer_1"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			shopTabUUID: [I;
+				1035402370
+				1181958665
+				-1945276256
+				-638667910
+			]
+			title: "Buy"
+		}
+		{
+			tabEntry: [
+				{
+					entryUUID: [I;
+						622226571
+						1684750548
+						-1773525026
+						-288746282
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "coinsje:copper_coin"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						586175873
+						-844871177
+						-1192943588
+						-1123953737
+					]
+					entryPrice: 5L
+					entryType: {
+						shopEntryTypeID: "itemTag"
+						useIconFromTag: 1b
+						tagKey: "forge:bread"
+						iconPath: {
+							id: "minecraft:air"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					title: "Any Bread"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-1393755227
+						-1569567112
+						-1119723628
+						-751461776
+					]
+					entryPrice: 10L
+					entryType: {
+						shopEntryTypeID: "itemTag"
+						useIconFromTag: 1b
+						tagKey: "cookcraft:sandwich"
+						iconPath: {
+							id: "minecraft:air"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					title: "Any Sandwich"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+			]
+			icon: {
+				id: "coinsje:copper_coin"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			shopTabUUID: [I;
+				1903567551
+				1933197865
+				-1860413170
+				-1206125290
+			]
+			title: "Sell"
+		}
+	]
+}

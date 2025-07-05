@@ -9,16 +9,17 @@
 	quest_links: [ ]
 	quests: [{
 		description: ["Swipe a ME kitchen station through the wireless receiver to bind it to the system, then put it on a kitchen counter to connect your AE to the kitchen!"]
+		icon: "appliedcooking:kitchen_station"
 		id: "0739D312F977C206"
 		tasks: [
 			{
-				id: "2D453D782960EAB1"
-				item: "appliedcooking:kitchen_station"
+				id: "4D88212BD281FB8C"
+				item: "ae2:wireless_access_point"
 				type: "item"
 			}
 			{
-				id: "4D88212BD281FB8C"
-				item: "ae2:wireless_access_point"
+				id: "4BAD9930D463DD57"
+				item: "appliedcooking:kitchen_station"
 				type: "item"
 			}
 		]

@@ -1,4 +1,5 @@
 {
+	icon: "waystones:waystone"
 	id: "6D27F24FC04EAF74"
 	loot_size: 1
 	order_index: 0
@@ -7,5 +8,6 @@
 		{ item: "waystones:mossy_waystone" }
 		{ item: "waystones:sandy_waystone" }
 	]
-	title: "waystone"
+	title: "Waystone"
+	use_title: true
 }

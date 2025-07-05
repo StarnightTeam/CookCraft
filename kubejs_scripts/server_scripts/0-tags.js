@@ -14,8 +14,13 @@ ServerEvents.tags("item", e => {
 
 
 
-    //// Forge ////
+    // Furnaces
+    e.add("cookcraft:furnaces", ["furnace", "quark:deepslate_furnace", "quark:blackstone_furnace"])
 
+    // Crafting Tables
+    e.add("forge:crafting_tables", ["crafting_table", "#biomeswevegone:crafting_tables"])
+
+    //// Forge ////
     /// Fixes
     // Dusts
     e.add("forge:salt/salt", ["pamhc2foodcore:saltitem"])
@@ -59,6 +64,14 @@ ServerEvents.tags("item", e => {
     "largemeals:raw_mutton_rack",
 
     "immersive_cooking:raw_spider_shank", "immersive_cooking:raw_spider_cutlet", "quark:crab_leg"])
+
+
+
+    //// Removals
+    e.removeAllTagsFrom("infested_cobblestone")
+    e.removeAllTagsFrom("infested_deepslate")
+    e.removeAllTagsFrom("infested_stone")
+
 
 })
 

@@ -1,4 +1,5 @@
 {
+	autofocus_id: "751FD461890A2032"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "furnish_your_kitchen"
@@ -9,17 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1BCC1CBACAEB8C5F"
-			tasks: [{
-				id: "27B5F2F9E7954319"
-				item: "cookingforblockheads:recipe_book"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1BCC1CBACAEB8C5F"]
+			dependencies: ["0819166A9201948D"]
 			id: "1A57FE773F1350EA"
 			progression_mode: "linear"
 			tasks: [{
@@ -27,8 +18,9 @@
 				item: "cookingforblockheads:crafting_book"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			title: "Advanced Cooking"
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1A57FE773F1350EA"]
@@ -38,10 +30,13 @@
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
+			title: "The Central One"
 			x: -1.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["0819166A9201948D"]
+			hide_until_deps_complete: true
 			id: "398C836608399FED"
 			rewards: [{
 				count: 5
@@ -54,30 +49,36 @@
 				item: "cookingforblockheads:counter"
 				type: "item"
 			}]
+			title: "The Spacious One"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["22F729F2C0524A68"]
 			id: "5D2A4B53A62658B7"
 			tasks: [{
 				id: "78E1D5E3746BB8CC"
 				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
-			x: 2.0d
+			title: "The Wet One"
+			x: -2.5d
 			y: -1.0d
 		}
 		{
+			dependencies: ["4507C64ACF7743DF"]
 			id: "76AFED4B3554124D"
 			tasks: [{
 				id: "2075E97C5D20807D"
 				item: "cookingforblockheads:oven"
 				type: "item"
 			}]
-			x: 3.5d
+			title: "The Hot One"
+			x: -4.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["4507C64ACF7743DF"]
 			id: "6DFF2A373AC5DF11"
 			tasks: [{
 				count: 2L
@@ -85,7 +86,8 @@
 				item: { Count: 2, id: "cookingforblockheads:fridge" }
 				type: "item"
 			}]
-			x: -5.5d
+			title: "The Cold One"
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -96,6 +98,7 @@
 				item: "cookingforblockheads:toaster"
 				type: "item"
 			}]
+			title: "The Toasted One"
 			x: -0.06122448979591866d
 			y: 2.301020408163275d
 		}
@@ -107,6 +110,7 @@
 				item: "cookingforblockheads:tool_rack"
 				type: "item"
 			}]
+			title: "The Usefull One"
 			x: -2.5102040816326507d
 			y: 2.076530612244902d
 		}
@@ -118,6 +122,7 @@
 				item: "cookingforblockheads:spice_rack"
 				type: "item"
 			}]
+			title: "The Spicy One"
 			x: -3.3265306122448948d
 			y: 1.1581632653061291d
 		}
@@ -129,8 +134,9 @@
 				item: "cookingforblockheads:fruit_basket"
 				type: "item"
 			}]
-			x: -1.3d
-			y: 2.5d
+			title: "The Refreshing One"
+			x: -1.183673469387756d
+			y: 2.4642857142857153d
 		}
 		{
 			dependencies: ["751FD461890A2032"]
@@ -140,6 +146,7 @@
 				item: "cookingforblockheads:milk_jar"
 				type: "item"
 			}]
+			title: "The Empty One"
 			x: 1.0204081632653086d
 			y: 1.7908163265306172d
 		}
@@ -151,6 +158,7 @@
 				item: "cookingforblockheads:cow_jar"
 				type: "item"
 			}]
+			title: "Dad's Mission"
 			x: 2.0816326530612272d
 			y: 2.301020408163275d
 		}
