@@ -1,6 +1,6 @@
 // Overhauls AE2's recipes
 ServerEvents.recipes(e => {
-
+/*
     // Energy Acceptor -> ME Controller
     // by vizthex
     e.shaped(
@@ -18,5 +18,5 @@ ServerEvents.recipes(e => {
           S: "ae2:sky_stone_block"
         }
     ).id("kubejs:acceptor_upgrade")
-
+*/
 })

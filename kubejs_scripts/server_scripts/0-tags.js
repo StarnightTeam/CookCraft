@@ -7,16 +7,6 @@ ServerEvents.tags("item", e => {
     /// Recipes
     e.add("cookcraft:bowl", ["bowl", "ecologics:coconut_husk"])
 
-    /// Foods
-    /// Mainly used for bounties and the shop
-    e.add("cookcraft:pie", ["pumpkin_pie", "pamhc2foodcore:applepieitem", "pamhc2foodcore:sweetberrypieitem", "pamhc2foodcore:caramelpieitem", "pamhc2foodcore:glowberrypieitem", "pamhc2foodcore:choruspieitem", "pamhc2foodcore:chocolatepieitem", "pamhc2foodcore:honeypieitem"])
-
-    e.add("cookcraft:sandwich", ["#cookcraft:sandwich/grilled_cheese", "pamhc2foodextended:bolognasandwichitem", "pamhc2foodextended:melonjellysandwichitem", "pamhc2foodextended:sweetberryjellysandwichitem", "pamhc2foodextended:friedbolognasandwichitem"])
-
-    e.add("cookcraft:sandwich/grilled_cheese", ["pamhc2foodcore:grilledcheeseitem", "pamhc2foodextended:groiledcheesesandwichitem", "pamhc2foodextended:grilledcheesevegemitetoastitem", "refurbished_furniture:cheese_toastie"])
-
-
-
     // Furnaces
     e.add("cookcraft:furnaces", ["furnace", "quark:deepslate_furnace", "quark:blackstone_furnace"])
 

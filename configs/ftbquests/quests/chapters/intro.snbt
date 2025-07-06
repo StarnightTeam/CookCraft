@@ -281,20 +281,28 @@
 				}
 				type: "item"
 			}]
+			title: "Mine-tastic Adventure II"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5012414591FF16B9"]
 			id: "35DDFCC2F3ADABFC"
-			rewards: [{
-				count: 5
-				id: "34FD6F6F2EA38111"
-				item: "minecraft:torch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "34FD6F6F2EA38111"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "0DC645FE2B3673A7"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+			]
 			tasks: [{
-				count: 16L
+				count: 8L
 				id: "2DF3A90C7E86060B"
 				item: "minecraft:raw_iron"
 				type: "item"
@@ -438,6 +446,7 @@
 				}
 				type: "item"
 			}]
+			title: "Mine-tastic Adventure III"
 			x: 5.5d
 			y: -2.0d
 		}

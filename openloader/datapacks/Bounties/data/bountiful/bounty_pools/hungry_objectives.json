@@ -8,47 +8,77 @@
                 "min": 1,
                 "max": 8
             },
-            "unitWorth": 10
+            "unitWorth": 5
         },
         "toast": {
             "type": "item",
             "rarity": "COMMON",
-            "content": "pamhc2foodcore:toastitem",
+            "content": "#cookcraft:toast",
             "amount": {
                 "min": 1,
                 "max": 8
             },
-            "unitWorth": 12
+            "unitWorth": 7
         },
         "sandwiches": {
             "type": "item",
             "rarity": "UNCOMMON",
-            "content": "#cookcraft:sandwich",
+            "content": "#cookcraft:sandwiches",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 20
+        },
+        "grilled_cheese": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#cookcraft:sandwiches/grilled_cheese",
             "amount": {
                 "min": 1,
                 "max": 4
             },
             "unitWorth": 25
         },
-        "grilled_cheese": {
+        "pies": {
             "type": "item",
             "rarity": "UNCOMMON",
-            "content": "#cookcraft:sandwich/grilled_cheese",
+            "content": "#cookcraft:pies",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 15
+        },
+        "basic_burgers": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "#cookcraft:burgers/basic",
             "amount": {
                 "min": 1,
                 "max": 4
             },
             "unitWorth": 35
         },
-        "cheeseburger": {
+        "burgers": {
             "type": "item",
             "rarity": "RARE",
-            "content": "vintagedelight:cheese_burger",
+            "content": "#cookcraft:burgers",
             "amount": {
                 "min": 1,
                 "max": 4
             },
             "unitWorth": 50
+        },
+        "deluxe_burger": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "#cookcraft:burgers/deluxe",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 75
         },
         "nether_burger": {
             "type": "item",

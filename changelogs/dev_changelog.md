@@ -11,14 +11,14 @@ Buffed AE2's Crystal Resonator's power output to 64/t (was 20)
 
 Fixed several items missing tags<br />
 Added several more items to the backpack whitelist<br />
-Made recipes that require Bowls use the `cookcraft:furnace` tag<br />
 Made recipes that require Bowls use the `cookcraft:bowl` tag<br />
+Made recipes that require Bowls use the `cookcraft:furnaces` tag<br />
 Made recipes that require Crafting Tables use the `forge:crafting_tables` tag
 
 
 
-Removed Nether's Delight<br />
-Removed SDM Engine Core
+Removed Nether's Delight
+
 
 
 Added the following mods:
@@ -32,7 +32,9 @@ Shipping Bin
 Updated the following mods:
 
 Ecologics<br />
+Entity Culling<br />
 ExtraLib<br />
+Every Compat<br />
 Fisherman's Haven<br />
 ModernFix
 

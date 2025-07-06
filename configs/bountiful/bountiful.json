@@ -8,6 +8,6 @@
 		"bounty_pools/bountiful/*"
     ],
     "objectiveModifier": 0,
-    "maxNumRewards": 3,
+    "maxNumRewards": 2,
     "showCompletionToast": true
 }
