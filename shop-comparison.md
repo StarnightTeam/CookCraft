@@ -8,6 +8,8 @@
 + easy to use and has shortcuts to buy/sell a quarter of a stack or entire stack of items at once (also shift+click to quick-sell items from your inventory - even if you're on the "buy" tab)
 + supports decimal amounts (e.g. $2.50)
 
+± needs a physical block to access
+
 
 
 # SDM Shop
@@ -16,7 +18,10 @@
 + lets you restrict categories and entries behind a certain quest
 + accepts items in shop entries
 + lets you make entries for commands, advancements, etc. You can even let players buy & sell quests lol.
+
+± can be accessed at any time
 ± seems like you can't configure the money (either its name or icon)
+
 - a bit annoying to create new entries
-- using the shop is a tad annoying due to the lack of shortcuts and a UI that requires a bit more effort to navigate
-- tag entries don't cycle through items like in AdminShop
+- using the shop is a tad annoying due to the UI being a tad janky
+- tag entries don't cycle through items like in AdminShop, so you have to manually check all the accepted items

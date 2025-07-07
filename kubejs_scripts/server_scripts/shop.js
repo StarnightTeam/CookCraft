@@ -153,8 +153,9 @@ sellItem("coinsje:diamond_coin", 1, 100000)
 sellItem("coinsje:netherite_coin", 1, 1000000)
 
 /// Items
+sellTag("forge:gems/apatite", 1, 200)
 sellTag("forge:bread", 1, 300)
-sellTag("cookcraft:pie", 1, 600)
-sellTag("cookcraft:sandwich", 1, 750)
+sellTag("cookcraft:pies", 1, 600)
+sellTag("cookcraft:sandwiches", 1, 750)
 
 })

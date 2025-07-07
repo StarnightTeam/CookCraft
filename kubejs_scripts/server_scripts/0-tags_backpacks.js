@@ -4,7 +4,7 @@
 ServerEvents.tags("item", e => {
 
     // Digger
-    e.add("forestry:backpack/allow/digger", [])
+    e.add("forestry:backpack/allow/digger", ["biomeswevegone:peat"])
 
 
     // Miner

@@ -2,42 +2,46 @@
 // Script by vizthex
 ServerEvents.tags("item", e => {
 
+    // Forge dye tags
+    e.add("forge:dyes/white", ["fishermans_haven:salt", "pamhc2foodcore:saltitem", "refurbished_furniture:sea_salt"])
+    e.add("forge:dyes/pink", ["vintagedelight:salt_dust"])
     e.add("forge:dyes/green", ["quark:moss_paste"])
     //e.add("forge:dyes/yellow", ["thermal:sulfur_dust"])
 
     // White
-    e.add("cookcraft:dye_materials/white", ["bone_meal", "lily_of_the_valley", "veggiesdelight:wild_garlic", "#forge:dusts/salt"])
+    e.add("cookcraft:dye_materials/white", ["bone_meal", "lily_of_the_valley", "veggiesdelight:wild_garlic", "#biomeswevegone:dye/makes_white"])
+    e.add("cookcraft:dye_materials/white_double", ["biomeswevegone:tall_white_allium"])
 
 
     // Orange
-    e.add("cookcraft:dye_materials/orange", ["carrot", "glow_berries", "orange_tulip", "torchflower"])
+    e.add("cookcraft:dye_materials/orange", ["carrot", "glow_berries", "orange_tulip", "torchflower", "#biomeswevegone:dye/makes_orange"])
     e.add("cookcraft:dye_materials/orange_double", ["mushroomquest:penny_bun"])
 
 
     // Magenta
-    e.add("cookcraft:dye_materials/magenta", ["allium", "bubble_coral", "bubble_coral_fan"])
+    e.add("cookcraft:dye_materials/magenta", ["allium", "bubble_coral", "bubble_coral_fan", "#biomeswevegone:dye/makes_magenta"])
     e.add("cookcraft:dye_materials/magenta_double", ["lilac"])
 
 
     // Light Blue
-    e.add("cookcraft:dye_materials/light_blue", ["blue_orchid", "mushroomquest:dewdrop_bonnet", "mushroomquest:werewere_kokako"])
+    e.add("cookcraft:dye_materials/light_blue", ["blue_orchid", "biomeswevegone:winter_scilla", "mushroomquest:dewdrop_bonnet", "mushroomquest:werewere_kokako"])
 
 
     // Yellow
-    e.add("cookcraft:dye_materials/yellow", ["dandelion", "horn_coral", "horn_coral_fan", "mushroomquest:golden_chanterelle", "mushroomquest:yellow_stainer"])
+    e.add("cookcraft:dye_materials/yellow", ["dandelion", "horn_coral", "horn_coral_fan", "#biomeswevegone:dye/makes_yellow", "mushroomquest:golden_chanterelle", "mushroomquest:yellow_stainer"])
     e.add("cookcraft:dye_materials/yellow_double", ["sunflower"])
     e.add("cookcraft:dye_materials/yellow_triple", ["veggiesdelight:mature_dandelion"])
     e.add("cookcraft:dye_materials/yellow_smeltable", ["mushroomquest:dyers_polypore", "mushroomquest:henofthe_woods", "mushroomquest:witchs_butter"])
 
 
     // Lime
-    // The Sea Pickle has its own Separator recipe
+    e.add("cookcraft:dye_materials/lime", ["biomeswevegone:green_mushroom", "biomeswevegone:green_tulip", "mushroomquest:horse_mushroom"])
     e.add("cookcraft:dye_materials/lime_smeltable", ["sea_pickle", "mushroomquest:oyster_mushroom"])
 
 
     // Pink
-    e.add("cookcraft:dye_materials/pink", ["pink_petals", "pink_tulip", "brain_coral", "brain_coral_fan", "mushroomquest:meadow_mushroom"])
-    e.add("cookcraft:dye_materials/pink_double", ["peony", "mushroomquest:pink_waxcap"])
+    e.add("cookcraft:dye_materials/pink", ["pink_petals", "pink_tulip", "brain_coral", "brain_coral_fan", "#biomeswevegone:dye/makes_pink", "mushroomquest:meadow_mushroom", "vintagedelight:salt_dust"])
+    e.add("cookcraft:dye_materials/pink_double", ["peony", "#biomeswevegone:dye/makes_2_pink", "mushroomquest:pink_waxcap"])
 
 
     // Gray
@@ -49,18 +53,19 @@ ServerEvents.tags("item", e => {
 
 
     // Cyan
-    e.add("cookcraft:dye_materials/cyan", ["mushroomquest:bluing_bolete", "mushroomquest:verdigris_agaric"])
-    e.add("cookcraft:dye_materials/cyan_double", ["pitcher_plant"])
+    e.add("cookcraft:dye_materials/cyan", ["#biomeswevegone:dye/makes_cyan", "mushroomquest:bluing_bolete", "mushroomquest:verdigris_agaric"])
+    e.add("cookcraft:dye_materials/cyan_double", ["pitcher_plant", "biomeswevegone:foxglove"])
 
 
     // Purple (best colour)
-    e.add("cookcraft:dye_materials/purple", ["ends_delight:chorus_succulent", 
+    e.add("cookcraft:dye_materials/purple", ["#biomeswevegone:dye/makes_purple", "ends_delight:chorus_succulent", 
     "mushroomquest:silver_leaf_fungus", "mushroomquest:violet_cort"])
     e.add("cookcraft:dye_materials/purple_smeltable", ["mushroomquest:cinnamon_bracket", "mushroomquest:wood_blewit"])
 
 
     // Blue
-    e.add("cookcraft:dye_materials/blue", ["cornflower", "lapis_lazuli", "tube_coral", "tube_coral_fan", "mushroomquest:blue_chanterelle"])
+    e.add("cookcraft:dye_materials/blue", ["cornflower", "lapis_lazuli", "tube_coral", "tube_coral_fan", "#biomeswevegone:dye/makes_blue", "mushroomquest:blue_chanterelle"])
+    e.add("cookcraft:dye_materials/blue_double", ["biomeswevegone:blue_rose_bush", "biomeswevegone:delphinium"])
 
 
     // Brown
@@ -68,13 +73,16 @@ ServerEvents.tags("item", e => {
     e.add("cookcraft:dye_materials/brown_double", ["mushroomquest:giant_puffball"])
     e.add("cookcraft:dye_materials/brown_smeltable", ["mushroomquest:artist_conk_block", "mushroomquest:lingzhi_mushroom", "mushroomquest:turkey_tail"])
 
+
     // Green
+    e.add("cookcraft:dye_materials/green", ["#biomeswevegone:dye/makes_green", "biomeswevegone:clover_patch", "biomeswevegone:winter_succulent", "mushroomquest:parrot_toadstool"])
     e.add("cookcraft:dye_materials/green_smeltable", ["cactus", "small_dripleaf", "big_dripleaf", "pamhc2crops:barrelcactusitem"])
 
 
     // Red
-    e.add("cookcraft:dye_materials/red", ["apple", "beetroot", "poppy", "red_mushroom", "red_tulip", "spider_eye", "sweet_berries", "fire_coral", "fire_coral_fan"])
+    e.add("cookcraft:dye_materials/red", ["apple", "beetroot", "poppy", "red_mushroom", "red_tulip", "spider_eye", "sweet_berries", "fire_coral", "fire_coral_fan", "#biomeswevegone:dye/makes_red"])
     e.add("cookcraft:dye_materials/red_double", ["rose_bush", "mushroomquest:bleeding_fairy_helmet", "mushroomquest:bleeding_tooth_fungus", "mushroomquest:red_tear_mushroom", "mushroomquest:strawberry_bracket"])
+
 
     // Black
     e.add("cookcraft:dye_materials/black", ["ink_sac", "wither_rose"])
@@ -97,6 +105,7 @@ ServerEvents.recipes(e => {
     e.remove({type: "crafting_shapeless", output: "light_blue_dye"})
     e.remove({type: "smelting", output: "light_blue_dye"})
     e.remove({type: "crafting_shapeless", output: "yellow_dye"})
+    e.remove({type: "crafting_shapeless", output: "lime_dye"})
     e.remove({type: "smelting", output: "lime_dye"})
     e.remove({type: "crafting_shapeless", output: "pink_dye"})
     e.remove({type: "crafting_shapeless", output: "gray_dye"})
@@ -112,6 +121,7 @@ ServerEvents.recipes(e => {
 
     // White
     e.shapeless("white_dye", ["#cookcraft:dye_materials/white"]).id("kubejs:white_dye")
+    e.shapeless("2x white_dye", ["#cookcraft:dye_materials/white_double"]).id("kubejs:white_dye_double")
 
     // Orange
     e.shapeless("orange_dye", ["#cookcraft:dye_materials/orange"]).id("kubejs:orange_dye")
@@ -136,6 +146,7 @@ ServerEvents.recipes(e => {
     e.smelting("yellow_dye", ["#cookcraft:dye_materials/yellow_smeltable"], 1).id("kubejs:smelt_yellow")
 
     // Lime
+    e.shapeless("lime_dye", ["#cookcraft:dye_materials/lime"]).id("kubejs:lime_dye")
     e.smelting("lime_dye", ["#cookcraft:dye_materials/lime_smeltable"], 1).id("kubejs:smelt_lime")
 
     // Pink
@@ -145,7 +156,7 @@ ServerEvents.recipes(e => {
 
     // Gray
     e.shapeless("gray_dye", ["#cookcraft:dye_materials/gray"]).id("kubejs:gray_dye")
-    e.shapeless("gray_dye", ["#forge:dyes/white", "#forge:dyes/black"]).id("kubejs:gray_dye_combine")
+    e.shapeless("2x gray_dye", ["#forge:dyes/white", "#forge:dyes/black"]).id("kubejs:gray_dye_combine")
 
     // Light Gray
     e.shapeless("light_gray_dye", ["#cookcraft:dye_materials/light_gray"]).id("kubejs:light_gray_dye")
@@ -164,6 +175,7 @@ ServerEvents.recipes(e => {
 
     // Blue
     e.shapeless("blue_dye", ["#cookcraft:dye_materials/blue"]).id("kubejs:blue_dye")
+    e.shapeless("2x blue_dye", ["#cookcraft:dye_materials/blue_double"]).id("kubejs:blue_dye_double")
     e.shapeless("blue_dye", ["#forge:dyes/black", "#forge:dyes/light_blue"]).id("kubejs:blue_dye_combine")
 
     // Brown
@@ -182,7 +194,7 @@ ServerEvents.recipes(e => {
     // Black
     e.shapeless("black_dye", ["#cookcraft:dye_materials/black"]).id("kubejs:black_dye")
     e.shapeless("2x black_dye", ["#cookcraft:dye_materials/black_double"]).id("kubejs:black_dye_double")
-    e.shapeless("2x black_dye", ["charcoal", "charcoal"]).id("kubejs:charcoal_black")
+    e.shapeless("2x black_dye", ["#minecraft:coals", "#minecraft:coals"]).id("kubejs:coal_black")
 
 
 /*

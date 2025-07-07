@@ -473,12 +473,44 @@
 			tabEntry: [
 				{
 					entryUUID: [I;
+						-2068741890
+						-1775680367
+						-1677356740
+						-1851524871
+					]
+					entryPrice: 1L
+					entryType: {
+						shopEntryTypeID: "itemTag"
+						useIconFromTag: 1b
+						tagKey: "forge:gems/apatite"
+						iconPath: {
+							id: "minecraft:black_banner"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
 						586175873
 						-844871177
 						-1192943588
 						-1123953737
 					]
-					entryPrice: 5L
+					entryPrice: 2L
 					entryType: {
 						shopEntryTypeID: "itemTag"
 						useIconFromTag: 1b
@@ -506,16 +538,48 @@
 				}
 				{
 					entryUUID: [I;
+						1463953532
+						35080723
+						-2036350086
+						1139623597
+					]
+					entryPrice: 5L
+					entryType: {
+						shopEntryTypeID: "itemTag"
+						useIconFromTag: 1b
+						tagKey: "cookcraft:pies"
+						iconPath: {
+							id: "minecraft:air"
+							Count: 1b
+						}
+					}
+					entryCount: 1
+					isSell: 1b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
 						-1393755227
 						-1569567112
 						-1119723628
 						-751461776
 					]
-					entryPrice: 10L
+					entryPrice: 6L
 					entryType: {
 						shopEntryTypeID: "itemTag"
 						useIconFromTag: 1b
-						tagKey: "cookcraft:sandwich"
+						tagKey: "cookcraft:sandwiches"
 						iconPath: {
 							id: "minecraft:air"
 							Count: 1b

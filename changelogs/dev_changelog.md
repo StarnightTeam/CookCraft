@@ -11,6 +11,8 @@ Buffed AE2's Crystal Resonator's power output to 64/t (was 20)
 
 Fixed several items missing tags<br />
 Added several more items to the backpack whitelist<br />
+Updated the dye recipe fixer to include Oh The Biomes We've Gone, and changed the Charcoal -> Black Dye recipe to also work with Coal
+
 Made recipes that require Bowls use the `cookcraft:bowl` tag<br />
 Made recipes that require Bowls use the `cookcraft:furnaces` tag<br />
 Made recipes that require Crafting Tables use the `forge:crafting_tables` tag
@@ -36,8 +38,9 @@ Entity Culling<br />
 ExtraLib<br />
 Every Compat<br />
 Fisherman's Haven<br />
-ModernFix
-
+ModernFix<br />
+Moonlight Lib<br />
+Skin Layers 3D
 
 <br /> <br />
 

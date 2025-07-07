@@ -2,6 +2,9 @@
 // Script by vizthex
 ServerEvents.recipes(e => {
 
+    // Remove the duplicate bread recipe
+    e.remove({id: "minecraft:bread"})
+
     // Ecologics' coconut husk recipes
     e.remove({id: "ecologics:beetroot_soup_from_coconut_husk"})
     e.remove({id: "ecologics:mushroom_stew_from_coconut_husk"})

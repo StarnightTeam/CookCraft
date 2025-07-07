@@ -39,6 +39,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28EFB270C4C654E8"]
 			description: [
 				"ME Systems are the most advanced form of item storage and automation around, and as with all technology they require power to run."
 				""

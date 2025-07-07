@@ -21,7 +21,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: true
 				count: 4L
 				id: "25ED1102C3963BF8"
 				item: {
@@ -163,9 +162,10 @@
 			]
 			id: "3656DF8BCDB071C8"
 			rewards: [{
+				auto: "enabled"
 				id: "3A822D5109331703"
 				type: "xp"
-				xp: 10
+				xp: 2
 			}]
 			shape: "gear"
 			tasks: [{
@@ -180,9 +180,10 @@
 			description: ["This packs comes with a gravestones mod by default, but it is your choice if you prefer playing on keep inventory ^^ Both are fine, and the pack is well suited for both! Pick whichever you feel more comfortable with :)"]
 			id: "402898657E4216B3"
 			rewards: [{
+				auto: "enabled"
 				id: "0CF1D81BF50458AC"
 				type: "xp"
-				xp: 10
+				xp: 1
 			}]
 			shape: "gear"
 			tasks: [{
@@ -421,20 +422,37 @@
 		{
 			dependencies: ["4507C64ACF7743DF"]
 			id: "2659349439131060"
-			rewards: [{
-				id: "0128E1382189FFE5"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 1s
-						}]
+			rewards: [
+				{
+					id: "0128E1382189FFE5"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C6BB4BE298B0746"
+					item: {
+						Count: 1
+						id: "adminshop:permit"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"ME Expert Certification\"}"
+							}
+							key: "me_expert"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1DAC76A984E846C9"
 				item: {
