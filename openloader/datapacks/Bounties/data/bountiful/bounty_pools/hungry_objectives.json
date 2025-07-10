@@ -1,7 +1,7 @@
 {
     "content": {
         "bread": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "UNCOMMON",
             "content": "#forge:bread",
             "amount": {
@@ -11,7 +11,7 @@
             "unitWorth": 5
         },
         "toast": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "COMMON",
             "content": "#cookcraft:toast",
             "amount": {
@@ -21,7 +21,7 @@
             "unitWorth": 7
         },
         "sandwiches": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "UNCOMMON",
             "content": "#cookcraft:sandwiches",
             "amount": {
@@ -31,7 +31,7 @@
             "unitWorth": 20
         },
         "grilled_cheese": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "UNCOMMON",
             "content": "#cookcraft:sandwiches/grilled_cheese",
             "amount": {
@@ -41,7 +41,7 @@
             "unitWorth": 25
         },
         "pies": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "UNCOMMON",
             "content": "#cookcraft:pies",
             "amount": {
@@ -51,7 +51,7 @@
             "unitWorth": 15
         },
         "basic_burgers": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "UNCOMMON",
             "content": "#cookcraft:burgers/basic",
             "amount": {
@@ -61,7 +61,7 @@
             "unitWorth": 35
         },
         "burgers": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "RARE",
             "content": "#cookcraft:burgers",
             "amount": {
@@ -71,7 +71,7 @@
             "unitWorth": 50
         },
         "deluxe_burger": {
-            "type": "item",
+            "type": "item_tag",
             "rarity": "RARE",
             "content": "#cookcraft:burgers/deluxe",
             "amount": {
